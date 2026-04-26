@@ -3,17 +3,17 @@ k3s_cluster:
   children:
     server:
       hosts:
-        192.16.35.11:
+        10.10.0.10:
     agent:
       hosts:
-        192.16.35.12:
-        192.16.35.13:
+        # 10.10.0.11:
+        # 10.10.0.12:
 
   # Required Vars
   vars:
     ansible_port: 22
     ansible_user: ubuntu
-    k3s_version: v1.31.12+k3s1
+    k3s_version: v1.35.3+k3s1
     # The token should be a random string of reasonable length. You can generate
     # one with the following commands:
     # - openssl rand -base64 64
