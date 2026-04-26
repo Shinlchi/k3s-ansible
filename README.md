@@ -1,16 +1,8 @@
 # Build a Kubernetes cluster using K3s via Ansible
-
-Author: <https://github.com/itwars>  
-Current Maintainer: <https://github.com/dereknola>
-
 Easily bring up a cluster on machines running:
 
 - [X] Debian
 - [X] Ubuntu
-- [X] Raspberry Pi OS
-- [X] RHEL Family (CentOS, Redhat, Rocky Linux...)
-- [X] SUSE Family (SLES, OpenSUSE Leap, Tumbleweed...)
-- [X] ArchLinux
 
 on processor architectures:
 
